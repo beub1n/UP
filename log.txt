@@ -1,0 +1,11 @@
+commit 552da70592bc74a965aa9f099638abccd867966b
+Author: beub1n <styf123456789@mail.ru>
+Date:   Fri Mar 11 14:10:48 2016 +0300
+
+    Add status
+
+commit d9af912f71165d2676372264f4d0ad5a5b75d28b
+Author: beub1n <styf123456789@mail.ru>
+Date:   Fri Mar 11 14:08:19 2016 +0300
+
+    Add .gitignore

@@ -1,0 +1,4 @@
+Load from file
+Print messages
+Search a message by date
+Print messages

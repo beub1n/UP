@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="JS.js"></script>
+</head>
+<body>
+<div id="cont">
+    <div id="menu">
+        <div id="welcome">Welcome to chat!</div>
+
+        <div id="buttons">
+            Name: <input id="userlogin" type="login" name="userlogin" />
+            <input id="loginButton" type="button" onclick = login() value="Login" />
+            <input name="logoutButton" type="button" onclick = logout() value="Logout" />
+            <input name="renameButton" type="button" onclick = rename() value="Rename" />
+        </div>
+    </div>
+
+    <div id="chat">
+        <table id = "messageTable">
+            <tr>
+                <th>     </th>
+                <th>Name</th>
+                <th>Message</th>
+                <th>Send time</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="message">
+        <input name="usermessage" type="text" id="usermessage" size="63" />
+        <input name="sendmessage" type="button"  id="sendmessage" onclick = send() value="Send" />
+        <input name="deletemessage" type="button" onclick = deleteMessage() value="Delete" />
+        <input name="editmessage" type="button" onclick = editMessage() value="Edit" />
+    </div>
+</div>
+</body>
+</html>

@@ -10,10 +10,10 @@ public class Message {
     private String author;
     private Date time;
 
-    public void setMessage() {
-        Scanner sc = new Scanner(System.in);
+    public Message(Scanner sc) {
 
         System.out.println("Введите имя автора :");
+        sc.nextLine();
         author = sc.nextLine();
 
         System.out.println("Введите сообщение :");
@@ -32,7 +32,16 @@ public class Message {
     public UUID getId() {
         return id;
     }
-    public String getAuthor() { return author; }
-    public String getMessage() { return message; }
-    public Date getTime() { return time; }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public Date getTime() {
+        return time;
+    }
 }
